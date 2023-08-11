@@ -3194,7 +3194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3231,6 +3231,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5c045513e4151147853cda3993672fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  standartTurretPrefab:
+    Prefab: {fileID: 803093788215258181, guid: b3ac9bc2789e58d4d9599983b1e3cf43, type: 3}
+    cost: 100
+  missileLauncherPrefab:
+    Prefab: {fileID: 8472193825143197759, guid: b90a87ede04bcb94ba0c2dfecc64f461, type: 3}
+    cost: 250
+  laserBeamerPrefab:
+    Prefab: {fileID: 0}
+    cost: 0
 --- !u!1001 &595093463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4519,6 +4528,7 @@ GameObject:
   - component: {fileID: 833813178}
   - component: {fileID: 833813177}
   - component: {fileID: 833813179}
+  - component: {fileID: 833813180}
   m_Layer: 0
   m_Name: GameMaster
   m_TagString: Untagged
@@ -4572,6 +4582,19 @@ MonoBehaviour:
   standartTurretPrefab: {fileID: 803093788215258181, guid: b3ac9bc2789e58d4d9599983b1e3cf43, type: 3}
   missileTurretPrefab: {fileID: 8472193825143197759, guid: b90a87ede04bcb94ba0c2dfecc64f461, type: 3}
   laserTurretPrefab: {fileID: 0}
+--- !u!114 &833813180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833813176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c71c044c31e924c8eae20aedd4fa2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMoney: 400
 --- !u!1 &848100124
 GameObject:
   m_ObjectHideFlags: 0
@@ -7430,7 +7453,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571428964}
         m_TargetAssemblyTypeName: Shop, Assembly-CSharp
-        m_MethodName: purchaseStandartTurret
+        m_MethodName: selectStandartTurret
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7815,7 +7838,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571428964}
         m_TargetAssemblyTypeName: Shop, Assembly-CSharp
-        m_MethodName: purchaseMissileTurret
+        m_MethodName: selectMissileTurret
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9819,7 +9842,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571428964}
         m_TargetAssemblyTypeName: Shop, Assembly-CSharp
-        m_MethodName: purchaseLaserTurret
+        m_MethodName: selectLaserTurret
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
