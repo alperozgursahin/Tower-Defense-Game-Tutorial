@@ -8,7 +8,7 @@ public class WaveSpawner : MonoBehaviour
     public Transform enemyPrefab;
     public Transform spawnPoint;
     public float timeBetweenWaves;
-    private float countdown = 5f;
+    private float countdown = 2f;
     private int waveNumber = 2;
     public TextMeshProUGUI waveCountdownText;
 
@@ -21,10 +21,9 @@ public class WaveSpawner : MonoBehaviour
             countdown = timeBetweenWaves;
         }
         countdown -= Time.deltaTime;
-        waveCountdownText.text = Mathf.Round(countdown).ToString();
+        countdown = Mathf.Clamp(countdown, 0 , Mathf.Infinity);
+        waveCountdownText.text = string.Format("{0:00.00}", countdown );
     }
-
-    // Update is called once per frame
     IEnumerator SpawnWave()
     {
         for ( int i = 0; i < waveNumber; i++ )

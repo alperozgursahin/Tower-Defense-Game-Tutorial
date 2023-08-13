@@ -6,17 +6,12 @@ public class Bullet : MonoBehaviour
     public float speed = 35f;
     public GameObject impactEffect;
     public float explosionRadius = 0f;
+    public int damage = 50;
 
     public void Seek(Transform _target)
     {
         target = _target;
     }
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (target == null)
@@ -24,7 +19,6 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        
         
         Vector3 dir = target.position - transform.position;
         float distanceThisFrame = speed * Time.deltaTime;
@@ -51,7 +45,7 @@ public class Bullet : MonoBehaviour
         {
             Damage(target);
         }
-        Destroy(target.gameObject);
+        
         Destroy (gameObject);
     }
 
@@ -67,9 +61,13 @@ public class Bullet : MonoBehaviour
     }
     void Damage(Transform enemy)
     {
-        Destroy(enemy.gameObject);
+        Enemy e = enemy.GetComponent<Enemy>();
+        if (e != null)
+        {
+            e.TakeDamage(damage);
+        }
+            
     }
-
     void OnDrawGizmosSelected()
     {
         Gizmos.color= Color.red;

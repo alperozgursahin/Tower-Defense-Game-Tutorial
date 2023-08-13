@@ -118,5 +118,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1152a1a19d1293948afd069f97d04417, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 10
   target: {fileID: 0}
+  health: 100
+  gainMoney: 50
+  deathEffectPrefab: {fileID: 6689134048352892185, guid: e3a3f65a8ddba1e46b0fbcc699599ecb, type: 3}

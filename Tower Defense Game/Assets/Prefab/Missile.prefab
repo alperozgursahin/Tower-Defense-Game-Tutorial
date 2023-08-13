@@ -48,6 +48,7 @@ MonoBehaviour:
   speed: 30
   impactEffect: {fileID: 7722244890640408978, guid: a84df846d670cff4c8ea1f2d71290c7e, type: 3}
   explosionRadius: 7
+  damage: 100
 --- !u!1001 &8313525800147689545
 PrefabInstance:
   m_ObjectHideFlags: 0
