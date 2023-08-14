@@ -15,11 +15,11 @@ public class BuildManager : MonoBehaviour
             Debug.Log("More than 1 BuildManager!");
             return;
         }
-        instance = this ; 
+        instance = this ;
     }
     
     public bool CanBuild { get { return turretToBuild != null; } }
-    public bool HasMoney { get { return  PlayerStats.Money >= turretToBuild.cost; } }
+    public bool HasMoney { get { return PlayerStats.Money >= turretToBuild.cost; } }
 
     public void SelectTurretToBuild(TurretBlueprint turret)
     {

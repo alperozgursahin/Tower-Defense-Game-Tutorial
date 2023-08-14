@@ -19,9 +19,13 @@ public class Node : MonoBehaviour
         rend = GetComponent<Renderer>();
         startColor = rend.material.color;
         buildManager = BuildManager.instance;
+        buildManager.SelectTurretToBuild(null);
     }
     void OnMouseEnter()
     {
+        if (turret != null)
+            return;
+
         if (EventSystem.current.IsPointerOverGameObject())
             return;
 

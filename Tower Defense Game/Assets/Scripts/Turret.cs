@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net;
 using UnityEngine;
 
 public class Turret : MonoBehaviour
 {
     
     private Transform target;
+    private Enemy targetEnemy;
 
     [Header("General")]
 
@@ -18,9 +20,11 @@ public class Turret : MonoBehaviour
 
     [Header("Use Laser")]
     public bool useLaser = false;
+    public int damageOverTime = 60;
     public LineRenderer lineRenderer;
     public ParticleSystem laserImpactEffect;
     public Light impactLight;
+    public  float slowRate = 0.5f;
 
     [Header("Unity Setup Fields")]
 
@@ -87,34 +91,47 @@ public class Turret : MonoBehaviour
     }
 
     void UpdateTarget()
-    {
-        
-        GameObject[] enemies = GameObject.FindGameObjectsWithTag(enemyTag);
-        float shortestDistance = Mathf.Infinity;
-        GameObject nearestEnemy = null;
-        foreach (GameObject enemy in enemies)
+    {   
+        isEnemyInRange();
+        if (target == null)
         {
-            float distanceToEnemy = Vector3.Distance(transform.position, enemy.transform.position);
-            if (distanceToEnemy < shortestDistance)
+            GameObject[] enemies = GameObject.FindGameObjectsWithTag(enemyTag);
+            float shortestDistance = Mathf.Infinity;
+            GameObject nearestEnemy = null;
+            foreach (GameObject enemy in enemies)
             {
-                shortestDistance = distanceToEnemy;
-                nearestEnemy = enemy;
+                float distanceToEnemy = Vector3.Distance(transform.position, enemy.transform.position);
+                if (distanceToEnemy < shortestDistance)
+                {
+                    shortestDistance = distanceToEnemy;
+                    nearestEnemy = enemy;
+                }
+            }
+
+            if (nearestEnemy != null && shortestDistance <= range)
+            {
+                target = nearestEnemy.transform;
+                targetEnemy = nearestEnemy.GetComponent<Enemy>();
+            }
+            else
+            {
+                target = null;
             }
         }
+       
+    }
 
-        if (nearestEnemy != null && shortestDistance <= range)
-        {
-            target = nearestEnemy.transform;
-        }
-        else
-        {
+    void isEnemyInRange()
+    {
+        if (target == null) return;
+        float distanceToTarget = Vector3.Distance(transform.position, target.transform.position);
+        if (distanceToTarget > range)
             target = null;
-        }
-
+        
     }
 
     void LockOnTarget()
-    {
+    {   
         Vector3 dir = target.position - transform.position;
         Quaternion lookRotation = Quaternion.LookRotation(dir);
         Vector3 rotation = Quaternion.Lerp(partToRotate.rotation, lookRotation, Time.deltaTime * turningSpeed).eulerAngles;
@@ -123,13 +140,16 @@ public class Turret : MonoBehaviour
 
     void Laser()
     {
-        
+
+        targetEnemy.TakeDamage(damageOverTime * Time.deltaTime);
+        targetEnemy.Slow(slowRate);
         if (!lineRenderer.enabled)
         {
             lineRenderer.enabled = true;
             laserImpactEffect.Play();
             impactLight.enabled = true;
         }
+
             
         lineRenderer.SetPosition(0,firePoint.position);
         lineRenderer.SetPosition(1, target.position);
