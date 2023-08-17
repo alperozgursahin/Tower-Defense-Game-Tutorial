@@ -122,7 +122,7 @@ MonoBehaviour:
   startSpeed: 10
   speed: 0
   health: 100
-  worth: 50
+  worth: 25
   deathEffectPrefab: {fileID: 6689134048352892185, guid: e3a3f65a8ddba1e46b0fbcc699599ecb, type: 3}
 --- !u!114 &87477451574517489
 MonoBehaviour:
