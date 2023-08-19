@@ -15,7 +15,7 @@ public class CameraController : MonoBehaviour
     {
         if (GameManager.isGameOver) return;
 
-        if (Input.GetKey(KeyCode.Escape))
+        if (Input.GetKey(KeyCode.F1))
             doMovement = !doMovement;
 
         if (!doMovement) return;
