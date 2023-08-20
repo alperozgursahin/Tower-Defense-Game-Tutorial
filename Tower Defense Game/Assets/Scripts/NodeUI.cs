@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,24 +9,25 @@ public class NodeUI : MonoBehaviour
     public TextMeshProUGUI upgradeCost;
     public Button upgradeButton;
     public TextMeshProUGUI sellAmount;
-    
+
     public void SetTarget(Node target)
     {
-        this.target = target;       
+        this.target = target;
         transform.position = target.GetBuildPosition();
         if (!target.isUpgraded)
         {
             upgradeCost.text = "$" + target.turretBlueprint.upgradeCost.ToString();
             upgradeButton.interactable = true;
-        } else
+        }
+        else
         {
             upgradeCost.text = "MAX";
             upgradeButton.interactable = false;
         }
 
-           
+
         sellAmount.text = "$" + target.turretBlueprint.GetSellAmount().ToString();
-        
+
         UI.SetActive(true);
     }
 
@@ -38,8 +37,8 @@ public class NodeUI : MonoBehaviour
     }
 
     public void Upgrade()
-    {   
-        
+    {
+
         target.UpgradeTurret();
         BuildManager.instance.DeselectNode();
     }

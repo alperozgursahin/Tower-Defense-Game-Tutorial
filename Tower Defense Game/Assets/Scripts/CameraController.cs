@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
@@ -37,7 +35,7 @@ public class CameraController : MonoBehaviour
         // Move Left
         if (Input.GetKey(KeyCode.A) || Input.mousePosition.x <= panBoarderThickness)
         {
-            transform.Translate(Vector3.left * panSpeed* Time.deltaTime, Space.World);
+            transform.Translate(Vector3.left * panSpeed * Time.deltaTime, Space.World);
         }
 
         float scroll = Input.GetAxis("Mouse ScrollWheel");
@@ -46,11 +44,11 @@ public class CameraController : MonoBehaviour
 
         pos.y -= scroll * scrollSpeed * Time.deltaTime * 1000;
         pos.y = Mathf.Clamp(pos.y, minY, maxY);
-        
+
         transform.position = pos;
 
-        
 
-        
+
+
     }
 }

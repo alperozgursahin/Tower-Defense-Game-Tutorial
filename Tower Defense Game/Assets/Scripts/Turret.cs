@@ -1,11 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Net;
 using UnityEngine;
 
 public class Turret : MonoBehaviour
 {
-    
+
     private Transform target;
     private Enemy targetEnemy;
 
@@ -24,7 +21,7 @@ public class Turret : MonoBehaviour
     public LineRenderer lineRenderer;
     public ParticleSystem laserImpactEffect;
     public Light impactLight;
-    public  float slowRate = 0.5f;
+    public float slowRate = 0.5f;
 
     [Header("Unity Setup Fields")]
 
@@ -40,8 +37,9 @@ public class Turret : MonoBehaviour
 
     void Update()
     {
-        if (target == null) {
-            if (useLaser )
+        if (target == null)
+        {
+            if (useLaser)
             {
                 if (lineRenderer.enabled)
                 {
@@ -50,8 +48,8 @@ public class Turret : MonoBehaviour
                     impactLight.enabled = false;
                 }
             }
-                
-            
+
+
             return;
         }
 
@@ -61,7 +59,8 @@ public class Turret : MonoBehaviour
         {
             Laser();
 
-        } else
+        }
+        else
         {
             if (fireCountdown <= 0f)
             {
@@ -71,7 +70,7 @@ public class Turret : MonoBehaviour
             fireCountdown -= Time.deltaTime;
         }
 
-        
+
     }
 
     void OnDrawGizmosSelected()
@@ -82,7 +81,7 @@ public class Turret : MonoBehaviour
 
     void Shoot()
     {
-        GameObject bulletGO = (GameObject) Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        GameObject bulletGO = (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Bullet bullet = bulletGO.GetComponent<Bullet>();
         if (bullet != null)
         {
@@ -91,7 +90,7 @@ public class Turret : MonoBehaviour
     }
 
     void UpdateTarget()
-    {   
+    {
         isEnemyInRange();
         if (target == null)
         {
@@ -118,7 +117,7 @@ public class Turret : MonoBehaviour
                 target = null;
             }
         }
-       
+
     }
 
     void isEnemyInRange()
@@ -127,11 +126,11 @@ public class Turret : MonoBehaviour
         float distanceToTarget = Vector3.Distance(transform.position, target.transform.position);
         if (distanceToTarget > range)
             target = null;
-        
+
     }
 
     void LockOnTarget()
-    {   
+    {
         Vector3 dir = target.position - transform.position;
         Quaternion lookRotation = Quaternion.LookRotation(dir);
         Vector3 rotation = Quaternion.Lerp(partToRotate.rotation, lookRotation, Time.deltaTime * turningSpeed).eulerAngles;
@@ -150,14 +149,14 @@ public class Turret : MonoBehaviour
             impactLight.enabled = true;
         }
 
-            
-        lineRenderer.SetPosition(0,firePoint.position);
+
+        lineRenderer.SetPosition(0, firePoint.position);
         lineRenderer.SetPosition(1, target.position);
 
         Vector3 dir = firePoint.position - target.position;
         laserImpactEffect.transform.position = target.position + dir.normalized;
         laserImpactEffect.transform.rotation = Quaternion.LookRotation(dir);
 
-        
+
     }
 }

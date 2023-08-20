@@ -8,7 +8,7 @@ public class EnemyMovement : MonoBehaviour
     private Enemy enemy;
 
     void Start()
-    {   
+    {
         enemy = GetComponent<Enemy>();
         target = Waypoints.waypoints[wavepointIndex];
     }
@@ -41,7 +41,9 @@ public class EnemyMovement : MonoBehaviour
     void EndPath()
     {
         Destroy(gameObject);
-        PlayerStats.Lives--;
+        WaveSpawner.EnemiesAlive--;
+        if (PlayerStats.Lives > 0)
+            PlayerStats.Lives--;
 
     }
 }
