@@ -3,13 +3,7 @@ Library\Bee\artifacts\mvdfrm\Unity.Performance.Profile-Analyzer.Editor.ref.dll_7
 Library\Bee\artifacts\mvdfrm\Unity.PlasticSCM.Editor.ref.dll_038935ADFCD4A11D.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Postprocessing.Editor.ref.dll_4A31481CD6C74677.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Postprocessing.Runtime.ref.dll_A62F0B3B323564C4.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Core.Editor.ref.dll_5F7FF7A966BF64B8.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Core.Runtime.ref.dll_7D87AD5D9C29EDF3.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Core.ShaderLibrary.ref.dll_D525208FA1B27961.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.ref.dll_E04A448D99127221.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Rider.Editor.ref.dll_07D7D7B7487B1198.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.Searcher.Editor.ref.dll_131E0B0FB16513F5.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.ShaderGraph.Editor.ref.dll_319B33408212A519.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll_785F74917A23DD9A.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll_FA96BB8C3E5A37A7.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TestTools.CodeCoverage.Editor.ref.dll_BD81B1708A4B02E0.mvfrm
@@ -18,8 +12,6 @@ Library\Bee\artifacts\mvdfrm\Unity.TextMeshPro.ref.dll_A4B478B3CE6E8702.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Timeline.Editor.ref.dll_0DA365A2C678CBF9.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Timeline.ref.dll_733236CB90539738.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VSCode.Editor.ref.dll_4366BA9A3B756B20.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.VisualEffectGraph.Editor.ref.dll_7773EDBB463BFC55.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.VisualEffectGraph.Runtime.ref.dll_B1A16512ACB78A06.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Core.Editor.ref.dll_065CC54F8DD2A924.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Core.ref.dll_2F2D99604E6B235D.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Flow.Editor.ref.dll_838DADFE9CB13465.mvfrm

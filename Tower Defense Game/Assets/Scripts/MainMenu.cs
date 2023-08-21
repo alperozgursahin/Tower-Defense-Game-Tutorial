@@ -1,17 +1,12 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-
-    public string mainLevel = "MainLevel";
-    public string controls = "Controls";
+    public string controllersMenu = "ControllersMenu";
     public string mainMenu = "MainMenu";
+    public string levelSelectMenu = "LevelSelect";
     public SceneFader sceneFader;
-
-    public void Play()
-    {
-        sceneFader.FadeTo(mainLevel);
-    }
 
     public void Quit()
     {
@@ -21,11 +16,16 @@ public class MainMenu : MonoBehaviour
 
     public void Controls()
     {
-        sceneFader.FadeTo(controls);
+        SceneManager.LoadScene(controllersMenu);
     }
 
     public void BackToMenu()
     {
-        sceneFader.FadeTo(mainMenu);
+        SceneManager.LoadScene(mainMenu);
+    }
+
+    public void LevelSelect()
+    {
+        sceneFader.FadeTo(levelSelectMenu);
     }
 }

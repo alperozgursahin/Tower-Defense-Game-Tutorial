@@ -5888,7 +5888,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2038113605}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: Play
+        m_MethodName: LevelSelect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6529,8 +6529,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainLevel: MainLevel
-  controls: Controls
+  controllers: ControllersMenu
   mainMenu: MainMenu
+  levelSelectMenu: LevelSelect
   sceneFader: {fileID: 1130301433}
 --- !u!4 &2038113606
 Transform:
