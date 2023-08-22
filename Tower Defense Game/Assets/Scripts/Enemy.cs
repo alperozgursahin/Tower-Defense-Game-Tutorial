@@ -16,6 +16,7 @@ public class Enemy : MonoBehaviour
     [Header("Unity Stuff")]
     public Image healthBar;
 
+    private bool isDead = false;
     void Start()
     {
         speed = startSpeed;
@@ -31,12 +32,19 @@ public class Enemy : MonoBehaviour
         }
     }
     void Die()
-    {
-        Destroy(gameObject);
-        GameObject effect = (GameObject)Instantiate(deathEffectPrefab, transform.position, Quaternion.identity);
-        Destroy(effect, 5f);
-        PlayerStats.Money += worth;
-        WaveSpawner.EnemiesAlive--;
+    {   if (!isDead)
+        {
+            PlayerStats.Money += worth;
+
+            GameObject effect = (GameObject)Instantiate(deathEffectPrefab, transform.position, Quaternion.identity);
+            Destroy(effect, 5f);
+
+            WaveSpawner.EnemiesAlive--;
+
+            Destroy(gameObject);
+            isDead = true;
+        }
+        
     }
 
     public void Slow(float slowRate)
