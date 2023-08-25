@@ -23,12 +23,10 @@ public class WaveSpawner : MonoBehaviour
 
     void Update()
     {
-        Debug.Log("ENEMÝES: " + EnemiesAlive);
 
         if (EnemiesAlive > 0)
-        {
             return;
-        }
+        
 
         if (countdown <= 0f)
         {
@@ -46,7 +44,6 @@ public class WaveSpawner : MonoBehaviour
 
     IEnumerator SpawnWave()
     {
-        
 
         PlayerStats.Rounds++;
 
@@ -64,6 +61,7 @@ public class WaveSpawner : MonoBehaviour
 
         if (waveIndex == waves.Length)
         {
+            yield return new WaitForSeconds(1f);
             gameManager.WinLevel();
             this.enabled = false;
         }
@@ -71,7 +69,7 @@ public class WaveSpawner : MonoBehaviour
 
     void SpawnEnemy(GameObject enemy)
     {
-        Instantiate(enemy, spawnPoint.position, spawnPoint.rotation);
+        Instantiate(enemy, spawnPoint.position, spawnPoint.rotation); 
     }
 
 }

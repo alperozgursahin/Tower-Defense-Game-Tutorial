@@ -32,16 +32,14 @@ public class Enemy : MonoBehaviour
         }
     }
     void Die()
-    {   if (!isDead)
+    {  
+        if (!isDead)
         {
             PlayerStats.Money += worth;
-
             GameObject effect = (GameObject)Instantiate(deathEffectPrefab, transform.position, Quaternion.identity);
             Destroy(effect, 5f);
-
-            WaveSpawner.EnemiesAlive--;
-
             Destroy(gameObject);
+            WaveSpawner.EnemiesAlive--;
             isDead = true;
         }
         
