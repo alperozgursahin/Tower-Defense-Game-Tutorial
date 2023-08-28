@@ -16,7 +16,16 @@ EditorBuildSettings:
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/Level02.unity
-    guid: f592c9c2d1db3554bb664caefcec37ff
+    guid: ea29cfc214cd26a4282529ad450c1231
+  - enabled: 1
+    path: Assets/Scenes/Level03.unity
+    guid: b7047d3cef2064347882b1f6e74e8ca9
+  - enabled: 1
+    path: Assets/Scenes/Level04.unity
+    guid: 7597772be15d152418d4663fc3d7f3ad
+  - enabled: 1
+    path: Assets/Scenes/Level05.unity
+    guid: b4c13fda773dc294e81112ce3f5610ae
   - enabled: 1
     path: Assets/Scenes/ControllersMenu.unity
     guid: e95ff7b1571cbb74493cb9e5c368c469
