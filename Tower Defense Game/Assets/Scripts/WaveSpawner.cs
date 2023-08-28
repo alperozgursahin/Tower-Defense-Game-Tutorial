@@ -1,6 +1,5 @@
 using UnityEngine;
 using System.Collections;
-using UnityEngine.UI;
 using TMPro;
 
 public class WaveSpawner : MonoBehaviour
@@ -26,7 +25,12 @@ public class WaveSpawner : MonoBehaviour
 
         if (EnemiesAlive > 0)
             return;
-        
+
+        if (waveIndex == waves.Length)
+        {
+            gameManager.WinLevel();
+            this.enabled = false;
+        }
 
         if (countdown <= 0f)
         {
@@ -59,12 +63,7 @@ public class WaveSpawner : MonoBehaviour
 
         waveIndex++;
 
-        if (waveIndex == waves.Length)
-        {
-            yield return new WaitForSeconds(1f);
-            gameManager.WinLevel();
-            this.enabled = false;
-        }
+        
     }
 
     void SpawnEnemy(GameObject enemy)

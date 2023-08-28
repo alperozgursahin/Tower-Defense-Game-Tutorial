@@ -26,23 +26,21 @@ public class Enemy : MonoBehaviour
     {
         health -= damageAmount;
         healthBar.fillAmount = health / startHealth;
-        if (health <= 0)
+        if (health <= 0 && !isDead)
         {
             Die();
         }
     }
     void Die()
-    {  
-        if (!isDead)
-        {
-            PlayerStats.Money += worth;
-            GameObject effect = (GameObject)Instantiate(deathEffectPrefab, transform.position, Quaternion.identity);
-            Destroy(effect, 5f);
-            Destroy(gameObject);
-            WaveSpawner.EnemiesAlive--;
-            isDead = true;
-        }
-        
+    {
+        isDead = true;
+
+        PlayerStats.Money += worth;
+        GameObject effect = (GameObject)Instantiate(deathEffectPrefab, transform.position, Quaternion.identity);
+        Destroy(effect, 5f);
+        Destroy(gameObject);
+        WaveSpawner.EnemiesAlive--;
+
     }
 
     public void Slow(float slowRate)
