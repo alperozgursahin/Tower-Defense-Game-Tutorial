@@ -1,44 +1,345 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1693243948475925, "dur":2709, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1693243948478645, "dur":590, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1693243948479277, "dur":259, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1693243948479552, "dur":2852, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1693243948482406, "dur":7525, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1693243948489932, "dur":89, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1693243948490022, "dur":67, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1693243948490248, "dur":2436, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1693243948479765, "dur":2645, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1693243948482412, "dur":7511, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1693243948479830, "dur":2599, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1693243948482431, "dur":904, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1693243948483335, "dur":6600, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1693243948479892, "dur":2555, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1693243948482450, "dur":861, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1693243948483311, "dur":6629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1693243948479791, "dur":2624, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1693243948482419, "dur":853, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1693243948483272, "dur":6680, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1693243948479822, "dur":2602, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1693243948482426, "dur":842, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1693243948483268, "dur":6688, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1693243948479862, "dur":2571, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1693243948482435, "dur":809, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1693243948483245, "dur":6716, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1693243948479884, "dur":2556, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1693243948482443, "dur":712, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1693243948483155, "dur":6835, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1693243948479917, "dur":2538, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1693243948482458, "dur":831, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1693243948483290, "dur":6657, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1693243948479940, "dur":2522, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1693243948482464, "dur":904, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1693243948483368, "dur":6564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1693243948479985, "dur":2483, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1693243948482471, "dur":58, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1693243948482529, "dur":7486, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1693243948480007, "dur":2468, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1693243948482475, "dur":7554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1693243948480033, "dur":2447, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1693243948482480, "dur":7553, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1693243948496580, "dur":1156, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1693329513375577, "dur":10814, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693329513386405, "dur":344, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693329513386809, "dur":302, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693329513387132, "dur":3208, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693329513390341, "dur":1024218, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693329514414563, "dur":135, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693329514414700, "dur":123, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693329514414953, "dur":1933, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1693329513387336, "dur":3011, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693329513390349, "dur":5317, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693329513395683, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693329513395925, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1693329513396016, "dur":4572, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1693329513400589, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1693329513400894, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alper\\OneDrive\\Masast\\Unity\\Tower-Defense-Game-Tutorial\\Tower Defense Game\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693329513401015, "dur":135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alper\\OneDrive\\Masast\\Unity\\Tower-Defense-Game-Tutorial\\Tower Defense Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693329513401152, "dur":183, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alper\\OneDrive\\Masast\\Unity\\Tower-Defense-Game-Tutorial\\Tower Defense Game\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693329513401337, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alper\\OneDrive\\Masast\\Unity\\Tower-Defense-Game-Tutorial\\Tower Defense Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693329513401466, "dur":263, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alper\\OneDrive\\Masast\\Unity\\Tower-Defense-Game-Tutorial\\Tower Defense Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693329513401730, "dur":366, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alper\\OneDrive\\Masast\\Unity\\Tower-Defense-Game-Tutorial\\Tower Defense Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693329513402097, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alper\\OneDrive\\Masast\\Unity\\Tower-Defense-Game-Tutorial\\Tower Defense Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693329513402165, "dur":241, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alper\\OneDrive\\Masast\\Unity\\Tower-Defense-Game-Tutorial\\Tower Defense Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693329513395924, "dur":6570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1693329513403253, "dur":1005748, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1693329514413377, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1693329514413376, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1693329514413486, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1693329513387366, "dur":2993, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693329513390362, "dur":973, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693329513391335, "dur":4352, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693329513395689, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1693329513417603, "dur":1818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1693329513419464, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693329513419582, "dur":2700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693329513422333, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693329513422513, "dur":2965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693329513425533, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693329513425719, "dur":3277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693329513429041, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693329513429121, "dur":3967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693329513433145, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693329513433277, "dur":3522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693329513436850, "dur":1374, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693329513438249, "dur":3522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693329513441876, "dur":4021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693329513445955, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693329513446035, "dur":5431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693329513451555, "dur":7723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1693329513459354, "dur":8196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/level6" }}
+,{ "pid":12345, "tid":2, "ts":1693329513467662, "dur":3670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1693329513471377, "dur":943198, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693329513387359, "dur":2994, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693329513390357, "dur":895, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693329513391253, "dur":4437, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693329513395691, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1693329513430269, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1693329513432007, "dur":476, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693329513432532, "dur":3082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693329513435665, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693329513435880, "dur":5261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693329513441243, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693329513441316, "dur":4795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693329513446173, "dur":293, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693329513446488, "dur":5952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693329513452511, "dur":6945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1693329513459553, "dur":7014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/level5.resS" }}
+,{ "pid":12345, "tid":3, "ts":1693329513466637, "dur":5563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1693329513472255, "dur":942308, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693329513387408, "dur":2965, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693329513390376, "dur":965, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693329513391342, "dur":4335, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693329513395677, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1693329513417249, "dur":1744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1693329513419106, "dur":2694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693329513421902, "dur":3053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693329513425089, "dur":3142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693329513428336, "dur":4650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693329513433101, "dur":3759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693329513436923, "dur":1303, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693329513438254, "dur":3370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693329513441672, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693329513441885, "dur":3081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693329513445021, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693329513445101, "dur":5409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693329513450582, "dur":5131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1693329513455795, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693329513456028, "dur":4793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1693329513460903, "dur":6890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1693329513467865, "dur":4659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1693329513472580, "dur":941997, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693329513387398, "dur":2967, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693329513390367, "dur":844, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693329513391211, "dur":4493, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693329513395718, "dur":346, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":5, "ts":1693329513395705, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1693329513418382, "dur":1658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1693329513420178, "dur":3045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693329513423335, "dur":3196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693329513426655, "dur":3373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693329513430084, "dur":369, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693329513430512, "dur":4021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693329513434589, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693329513434681, "dur":4989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693329513439766, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693329513439844, "dur":3551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693329513443502, "dur":4264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693329513447850, "dur":6224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1693329513454157, "dur":8474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1693329513462739, "dur":5715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/level4" }}
+,{ "pid":12345, "tid":5, "ts":1693329513468519, "dur":4054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1693329513472655, "dur":941910, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693329513387431, "dur":2948, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693329513390382, "dur":837, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693329513391220, "dur":4448, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693329513395695, "dur":183, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1693329513395674, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1693329513416125, "dur":2444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1693329513418640, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693329513418753, "dur":2333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693329513421132, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693329513421209, "dur":2904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693329513424144, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693329513424295, "dur":2818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693329513427162, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693329513427287, "dur":4326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693329513431672, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693329513431765, "dur":3500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693329513435323, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693329513435477, "dur":4484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693329513440028, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693329513440166, "dur":3725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693329513443954, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693329513444090, "dur":6030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693329513450241, "dur":6032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1693329513456529, "dur":2083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1693329513466300, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693329513458688, "dur":7693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/level6.resS" }}
+,{ "pid":12345, "tid":6, "ts":1693329513466540, "dur":4108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1693329513470699, "dur":943878, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693329513387460, "dur":2925, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693329513390389, "dur":922, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693329513391311, "dur":4356, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693329513395681, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693329513397038, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1693329513398762, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1693329513399225, "dur":1249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1693329513400510, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1693329513400658, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1693329513402044, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1693329513402129, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693329513402409, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1693329513403376, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1693329513403511, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1693329513405013, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693329513405011, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693329513405385, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693329513406803, "dur":286, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693329513407325, "dur":3628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693329513411062, "dur":2769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693329513413927, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693329513415426, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693329513415572, "dur":1909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693329513417583, "dur":2512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693329513420206, "dur":3082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693329513423348, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693329513423424, "dur":2432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693329513425904, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693329513426061, "dur":2780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693329513428887, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693329513429116, "dur":4081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693329513433309, "dur":5172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693329513438526, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693329513438748, "dur":3565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693329513442389, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693329513442505, "dur":4869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693329513447447, "dur":2936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1693329513450509, "dur":5579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1693329513456152, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693329513456268, "dur":4558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1693329513460915, "dur":6623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/level4.resS" }}
+,{ "pid":12345, "tid":7, "ts":1693329513467655, "dur":2995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1693329513470703, "dur":943858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693329513387487, "dur":2905, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693329513390395, "dur":995, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693329513391391, "dur":4293, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693329513395706, "dur":363, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1693329513395687, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1693329513418986, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1693329513420841, "dur":2587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693329513423476, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693329513423545, "dur":2921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693329513426523, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693329513426594, "dur":3420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693329513430075, "dur":374, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693329513430505, "dur":3444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693329513433994, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693329513434102, "dur":5039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693329513439181, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693329513439262, "dur":3575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693329513442956, "dur":4771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693329513447792, "dur":3866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":8, "ts":1693329513451723, "dur":6260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1693329513458089, "dur":144, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693329513458240, "dur":10523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/level7.resS" }}
+,{ "pid":12345, "tid":8, "ts":1693329513468807, "dur":945750, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693329513387514, "dur":2884, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693329513390401, "dur":955, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693329513391356, "dur":4319, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693329513395700, "dur":240, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":9, "ts":1693329513395683, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1693329513416882, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1693329513418612, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693329513418718, "dur":1714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693329513420485, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693329513420580, "dur":3357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693329513424065, "dur":2763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693329513426862, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693329513426948, "dur":4006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693329513431010, "dur":370, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693329513431404, "dur":3350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693329513434795, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693329513434893, "dur":5507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693329513440459, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693329513440654, "dur":3591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693329513444283, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693329513444563, "dur":5004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693329513449641, "dur":2678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":9, "ts":1693329513452406, "dur":5564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1693329513458467, "dur":7920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/level7" }}
+,{ "pid":12345, "tid":9, "ts":1693329513466481, "dur":3306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/level2.resS" }}
+,{ "pid":12345, "tid":9, "ts":1693329513469867, "dur":944699, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693329513387550, "dur":2856, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693329513390408, "dur":519, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693329513390927, "dur":4743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693329513395701, "dur":146, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1693329513395675, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1693329513404853, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1693329513406202, "dur":1823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial.exe" }}
+,{ "pid":12345, "tid":10, "ts":1693329513408211, "dur":2901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693329513411222, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693329513412929, "dur":1993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693329513414976, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693329513415081, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693329513416228, "dur":2088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693329513418389, "dur":312, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693329513418722, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693329513420630, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693329513420826, "dur":2720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693329513423594, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693329513423804, "dur":2853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693329513426772, "dur":3420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693329513430259, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693329513430501, "dur":3844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693329513434469, "dur":5189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693329513439713, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693329513439788, "dur":4155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693329513444001, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693329513444086, "dur":5314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693329513449482, "dur":2587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":10, "ts":1693329513452145, "dur":5321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1693329513457547, "dur":5715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1693329513463361, "dur":5175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/level3.resS" }}
+,{ "pid":12345, "tid":10, "ts":1693329513468668, "dur":4234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1693329513472947, "dur":941623, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693329513387570, "dur":2842, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693329513390413, "dur":5259, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693329513395674, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1693329513404124, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1693329513405444, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693329513405441, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693329513405550, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693329513405822, "dur":6244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693329513412125, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693329513412277, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693329513413563, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693329513413706, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693329513415212, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693329513416861, "dur":452, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693329513417341, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693329513419128, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693329513419248, "dur":2235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693329513421609, "dur":3091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693329513424775, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693329513424858, "dur":3104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693329513428021, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693329513428099, "dur":3835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693329513431978, "dur":510, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693329513432537, "dur":2934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693329513435522, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693329513435622, "dur":4902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693329513440570, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693329513440650, "dur":4136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693329513444906, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693329513445045, "dur":4853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693329513449968, "dur":6765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1693329513456922, "dur":7253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1693329513464254, "dur":5135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/level3" }}
+,{ "pid":12345, "tid":11, "ts":1693329513469436, "dur":945120, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693329513387597, "dur":2824, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693329513390422, "dur":5251, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693329513395676, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1693329513397291, "dur":1663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1693329513398984, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1693329513398983, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1693329513399220, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1693329513400614, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1693329513400903, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1693329513401974, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":12, "ts":1693329513401973, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1693329513402360, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1693329513403246, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1693329513403244, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1693329513403403, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1693329513404550, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1693329513404654, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693329513405099, "dur":1029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1693329513406170, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1693329513407173, "dur":3806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1693329513411087, "dur":1481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693329513412627, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693329513412739, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693329513414065, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693329513414278, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693329513415916, "dur":2968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693329513418934, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693329513419028, "dur":2918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693329513422077, "dur":3013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693329513425149, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693329513425256, "dur":2836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693329513428140, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693329513428333, "dur":4497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693329513436708, "dur":68, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693329513433009, "dur":3811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693329513436878, "dur":1349, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693329513438266, "dur":3920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693329513442240, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693329513442371, "dur":4314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693329513446764, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693329513446762, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693329513446933, "dur":21460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693329513468548, "dur":4944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alper/OneDrive/Masast/Projects/Tower Defense Game/Tower Defense Tutorial_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1693329513473530, "dur":941038, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693329514419068, "dur":1041, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

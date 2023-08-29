@@ -12,20 +12,49 @@ public class Enemy : MonoBehaviour
 
     public int worth = 50;
     public GameObject deathEffectPrefab;
+    [Header("Shield Enemy")]
+    public bool hasShield;
+    public float startShieldHealth = 100f;
+    private float shield;
+
 
     [Header("Unity Stuff")]
     public Image healthBar;
+    public Image shieldBar;
 
     private bool isDead = false;
     void Start()
     {
         speed = startSpeed;
         health = startHealth;
+        if (hasShield)
+            shield = startShieldHealth;
+
     }
     public void TakeDamage(float damageAmount)
     {
-        health -= damageAmount;
-        healthBar.fillAmount = health / startHealth;
+        if (hasShield)
+        {
+            if (damageAmount > shield)
+            {
+                hasShield = false;
+                shieldBar.enabled = false;
+                health -= damageAmount - shield;
+                healthBar.fillAmount = health / startHealth;
+            }
+            else
+            {
+                shield -= damageAmount;
+                shieldBar.fillAmount = shield / startShieldHealth;
+            }
+        }
+        else
+        {
+            health -= damageAmount;
+            healthBar.fillAmount = health / startHealth;
+        }
+
+
         if (health <= 0 && !isDead)
         {
             Die();

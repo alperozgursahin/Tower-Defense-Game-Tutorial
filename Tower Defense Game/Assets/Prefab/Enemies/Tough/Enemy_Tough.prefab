@@ -120,10 +120,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1152a1a19d1293948afd069f97d04417, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startSpeed: 7
+  startSpeed: 5
   speed: 0
-  startHealth: 350
-  worth: 75
+  startHealth: 450
+  worth: 100
   deathEffectPrefab: {fileID: 6689134048352892185, guid: 48b491dc63468ea4da6c78f57ca8982b, type: 3}
   healthBar: {fileID: 2130342192200432419}
 --- !u!114 &87477451574517489

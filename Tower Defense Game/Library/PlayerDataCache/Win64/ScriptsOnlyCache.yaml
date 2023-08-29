@@ -1493,7 +1493,7 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
-      Hash: faf966c547ccc65a4de5203992e62c33
+      Hash: 1ce23952e017d5340b58cfcab8ff5165
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Enemy
@@ -1715,7 +1715,7 @@ ScriptsOnlyBuild:
     className: PostProcessEffectSettings
   - hash:
       serializedVersion: 2
-      Hash: c4e79d8b56315ff30ae86950580e2a86
+      Hash: ce3c28d12050941056402af4c74f9262
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: WaveSpawner
