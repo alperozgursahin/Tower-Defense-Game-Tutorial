@@ -7,6 +7,6 @@ public class LivesUI : MonoBehaviour
 
     void Update()
     {
-        livesText.text = PlayerStats.Lives.ToString() + " LIVES";
+        livesText.text = PlayerStats.Lives.ToString();
     }
 }

@@ -54,7 +54,7 @@ public class WaveSpawner : MonoBehaviour
 
         EnemiesAlive = wave.count;
 
-        waveNumberText.text = "Wave " + ++PlayerStats.Rounds;
+        waveNumberText.text = "" + ++PlayerStats.Rounds;
 
         for (int i = 0; i < wave.count; i++)
         {

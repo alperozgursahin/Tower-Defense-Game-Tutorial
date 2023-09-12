@@ -413,6 +413,14 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+"Assets/UnityTechnologies/EffectExamples/Shared/Scripts/DecalDestroyer.cs"
+"Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ExtinguishableFire.cs"
+"Assets/UnityTechnologies/EffectExamples/Shared/Scripts/GunAim.cs"
+"Assets/UnityTechnologies/EffectExamples/Shared/Scripts/GunShoot.cs"
+"Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ParticleCollision.cs"
+"Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ParticleExamples.cs"
+"Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ParticleMenu.cs"
+"Assets/UnityTechnologies/EffectExamples/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 
 /deterministic
