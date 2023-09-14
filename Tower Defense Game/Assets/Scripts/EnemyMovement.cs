@@ -1,4 +1,6 @@
+using System.Collections;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 [RequireComponent(typeof(Enemy))]
 public class EnemyMovement : MonoBehaviour
@@ -6,6 +8,9 @@ public class EnemyMovement : MonoBehaviour
     public Transform target;
     private int wavepointIndex = 0;
     private Enemy enemy;
+    private float turnSpeed = 0.05f;
+    Quaternion rotGoal;
+    Vector3 direction;
 
     void Start()
     {
@@ -22,6 +27,15 @@ public class EnemyMovement : MonoBehaviour
             GetNextWaypoint();
         }
         enemy.speed = enemy.startSpeed;
+
+        // Rotation
+        direction = (target.position - transform.position).normalized;
+        rotGoal = Quaternion.LookRotation(direction);
+        transform.rotation = Quaternion.Slerp(transform.rotation, rotGoal, turnSpeed);
+
+
+
+
     }
     void GetNextWaypoint()
     {
@@ -34,6 +48,7 @@ public class EnemyMovement : MonoBehaviour
         {
             wavepointIndex++;
             target = Waypoints.waypoints[wavepointIndex];
+
         }
 
     }
@@ -46,4 +61,5 @@ public class EnemyMovement : MonoBehaviour
             PlayerStats.Lives--;
 
     }
+
 }
